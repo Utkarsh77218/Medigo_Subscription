@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "K2D", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.headerdiv{
+    display: flex;
+    width: 95%;
+    height: 2%;
+    padding: 8px 38px;
+    justify-content: space-evenly;
+    background:transparent;
+    backdrop-filter: blur(40px);
+    position: relative;
+    background-color: rgb(255,255,255,0.02);
+}
+
+.left{
+    margin-left: 34px;
+    display: flex;
+    width: 70%;
+}
+
+.logo{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab{
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.dim{
+    color:#aaaaaa;
+}
+
+.gradient{
+    background:linear-gradient(90deg,#7ED957,#6FC3DF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right{
+    margin-right: 30px;
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.signin{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+.signup{
+    padding: 0px 10px;
+    background:linear-gradient(90deg,#7ED957,#6FC3DF);
+    border-radius: 30px;
+    color: #f5f5f5;
+    font-size: 30px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #bfdeff;
+    margin: 0;
+    padding: 0;
+    height:714px;
+    width: auto;
+    background: radial-gradient(at 30% 0%, #8cdb6a, #b6cde5);
+}
+
+.heading{
+    text-align: center;
+    font-weight: 800;
+    font-size: 250%;
+    font-style: normal;
+    margin-top: 1%;
+}
+
+.heading_para{
+    text-align: center;
+    font-weight: 200;
+    font-style: normal;
+    color: #212121;
+    margin-top: 1%;
+}
+
+.parent{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, #6FC3DF, #7ED957);
+    margin-left: 41%;
+    margin-right: 41%;
+    margin-top: 1%;
+}
+
+.plan_button{
+    font-size: 90%;
+    font-weight: 500;
+    width: 50%;
+    margin: 2%;
+    padding: 5%;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.m_plan_button {
+    margin: 2%;
+    padding: 5%;
+    width: 37%;
+    height: 4%;
+    text-align: center;
+}
+
+.y_plan_button {
+    margin: 2%;
+    padding: 5%;
+    width: 35%;
+    height:4%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.active_page{
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 98%;
+    background: rgba(144, 238, 144, 0);
+    box-shadow: 0px 0px 5px 1px rgb(50, 50, 50);
+}
+
+.container{
+    position: relative;
+    height: fit-content;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.glass_div{
+    margin-top: 3%;
+    padding: 2%;
+    height: 55vh;
+    width: 18vw;
+    background-color: #00000000;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.145);
+    backdrop-filter: blur(30px);
+    transition: 0.5s;
+}
+
+.glass_div:hover{
+    transform: scale(1.1);
+}
+
+.curr_plan {
+    cursor: pointer;
+    margin-top: 5%;
+    height: 15%;
+    width: 50%;
+    border-radius: 50px;
+    color: #2c6173;
+    border: 0px;
+}
+
+.plan_button {
+    cursor: pointer;
+    margin-top: 5%;
+    height: 15%;
+    width: 50%;
+    border-radius: 50px;
+    background: linear-gradient(to right, #6FC3DF, #7ED957);
+    border: 0px;
+}
+
+.premium_pro{
+    background: linear-gradient(#6FC3DF 50%, #d8f6cc);
+}
+
+.tickmark{
+    width: 15px;
+}
+
+.cross{
+    width: 11px;
+}
