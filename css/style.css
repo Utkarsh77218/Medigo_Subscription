@@ -144,7 +144,7 @@ body {
     background-color: #bfdeff;
     margin: 0;
     padding: 0;
-    height:729px;
+    height:auto+10%;
     width: auto;
     background: radial-gradient(at 50% 15%, #7bc85a90, #b6cde5);
 }
@@ -232,8 +232,8 @@ a{
 .glass_div{
     margin-top: 3%;
     padding: 2%;
-    height: 49vh;
-    width: 18vw;
+    height: 30%;
+    width: 20%;
     background-color: #00000000;
     padding-top: 2rem;
     padding-left: 2rem;
@@ -249,8 +249,8 @@ a{
 
 .curr_plan {
     cursor: pointer;
-    margin-top: 5%;
-    height: 15%;
+    margin-top: 4%;
+    height: 50px;
     width: 50%;
     border-radius: 50px;
     color: #2c6173;
@@ -289,9 +289,9 @@ a{
 }
 
 .tickmark{
-    width: 15px;
+    width: 6%;
 }
 
 .cross{
-    width: 11px;
+    width: 5%;
 }
